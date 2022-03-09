@@ -50,14 +50,13 @@ button .navbar-toggler {
     border-color: #f0f0f0;
 } 
 
-/* Projects */
+/* Proyectos */
 
-#projects {
+#proyectos {
     padding: 5% 15%;
 }
 
-.title-projects {
-    font-family: 'Montserrat', sans-serif;
+.title-section-light {
     font-size: 2rem;
     font-weight: 600;
     color: #212121;
@@ -68,23 +67,56 @@ button .navbar-toggler {
     padding-top: 5%;
 }
 
-.projects-text {
-    
-}
-
-
 .img-projects {
     position: relative;
     width: 100%;
 }
 
-.name-projects {
+.subtitle-section-light {
     font-size: 20px;
     color: #3d09f9cc;
     font-weight: bold;
     padding-top: 5%;
 }
 
-.projects-details{
-    padding: 3% 0;
+.text-section-light{
+    padding: 3% 5%;
+    text-align: justify;
+}
+
+/* Nosotros */
+
+#nosotros {
+    background-color: #3d09f9cc;
+    padding: 5% 15%;
+}
+
+.nosotros-row {
+    padding-top: 5%;
+}
+
+.title-section-dark {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px #616161;
+}
+
+.img-nosotros{
+    position: relative;
+    width: 100%;
+}
+
+.subtitle-section-dark {
+    font-size: 20px;
+    color: #e0e0e0;
+    font-weight: bold;
+    padding-top: 5%;
+    text-shadow: 1px 1px 1px #616161;
+}
+
+.text-section-dark {
+    padding: 3% 15%;
+    color: #f0f0f0;
+    text-align: justify;
 }
