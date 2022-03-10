@@ -131,3 +131,22 @@ footer .socialMedia #icons img {
   padding-top: 5%;
   margin: 2%;
 }
+
+/* Contacto */
+#contacto {
+ 
+  padding: 5% 15%;
+}
+ 
+.header h3 {
+  padding: 5% 15%;
+  margin: 5px;
+}
+
+.form button{
+  background-color: #5d42d6;
+  border: 2px solid #000000cc;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 22px;
+}
