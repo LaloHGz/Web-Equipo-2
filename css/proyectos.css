@@ -150,3 +150,11 @@ footer .socialMedia #icons img {
   color: #ffffff;
   font-size: 22px;
 }
+
+.form button:hover{
+  background-color: #5d42d6;
+  border: 2px solid #000000cc;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 22px;
+}
