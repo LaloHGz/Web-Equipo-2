@@ -112,6 +112,7 @@ button .navbar-toggler {
 .img-nosotros {
   position: relative;
   width: 100%;
+  border-radius: 500px;
 }
 
 .subtitle-section-dark {
