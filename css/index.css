@@ -57,10 +57,82 @@ button .navbar-toggler {
   border-color: #f0f0f0;
 }
 
+/* HomePage  */
+
+#homepage {
+  padding: 10% 15%;
+}
+
+.homepage-content {
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.title-homepage {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: clamp(1rem, 3vw + 1rem, 4rem);
+  position: relative;
+  width: max-content;
+}
+
+
+
+.title-homepage::before,
+.title-homepage::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.title-homepage::before {
+  background: white;
+  animation: typewriter 5s steps(32) 1s forwards;
+}
+
+.title-homepage::after {
+  width: .125em;
+  background: black;
+  animation: 
+    typewriter 5s steps(32) 1s forwards,
+    blink 1000ms steps(32) infinite;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.homepage-content > .text-section-light {
+  text-align: center;
+  font-size: 1.5rem;
+  opacity: 0;
+  transform: translateY(3rem);
+  animation: fadeInUp 2s ease 6s forwards;
+}
+
+
 /* Proyectos */
 
 #proyectos {
-  padding: 5% 15%;
+  padding: 10% 15%;
 }
 
 .title-section-light {
