@@ -70,17 +70,15 @@ button .navbar-toggler {
 }
 
 .title-homepage {
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: "Ubuntu Mono", monospace;
   font-size: clamp(1rem, 3vw + 1rem, 4rem);
   position: relative;
   width: max-content;
 }
 
-
-
 .title-homepage::before,
 .title-homepage::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
@@ -94,10 +92,9 @@ button .navbar-toggler {
 }
 
 .title-homepage::after {
-  width: .125em;
+  width: 0.125em;
   background: black;
-  animation: 
-    typewriter 5s steps(32) 1s forwards,
+  animation: typewriter 5s steps(32) 1s forwards,
     blink 1000ms steps(32) infinite;
 }
 
@@ -127,7 +124,6 @@ button .navbar-toggler {
   transform: translateY(3rem);
   animation: fadeInUp 2s ease 6s forwards;
 }
-
 
 /* Proyectos */
 
@@ -201,12 +197,11 @@ button .navbar-toggler {
   text-align: justify;
 }
 
-
 /* Contacto */
 #contacto {
   padding: 5rem 4rem;
 }
- 
+
 .contacto-subtitle {
   padding: 2% 15%;
   text-align: center;
@@ -218,7 +213,7 @@ button .navbar-toggler {
   text-align: center;
 }
 
-.form button{
+.form button {
   margin-top: 2%;
   background-color: #212121;
   border-color: #212121;
@@ -228,7 +223,7 @@ button .navbar-toggler {
   padding: 1rem 5%;
 }
 
-.form button:hover{
+.form button:hover {
   background-color: #616161;
   border-color: #616161;
 }
@@ -238,7 +233,6 @@ footer {
   background-color: #212121;
   padding: 2rem 15%;
 }
-
 
 /* Derechos Reservados */
 
@@ -261,7 +255,6 @@ footer {
   font-size: 1rem;
   padding-left: 0.5rem;
 }
-
 
 .reveal {
   position: relative;
